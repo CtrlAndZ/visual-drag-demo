@@ -58,6 +58,7 @@ const list = [
             width: 300,
             height: 200,
             borderRadius: '',
+            upLoad: true,
         },
     },
     {
