@@ -77,10 +77,12 @@ export default {
         restore() {
             // 用保存的数据恢复画布
             if (localStorage.getItem('canvasData')) {
+                console.log(JSON.parse(localStorage.getItem('canvasData')))
                 this.$store.commit('setComponentData', this.resetID(JSON.parse(localStorage.getItem('canvasData'))))
             }
 
             if (localStorage.getItem('canvasStyle')) {
+                console.log(JSON.parse(localStorage.getItem('canvasStyle')))
                 this.$store.commit('setCanvasStyle', JSON.parse(localStorage.getItem('canvasStyle')))
             }
         },

@@ -82,6 +82,30 @@ const list = [
             verticalAlign: 'middle',
         },
     },
+    {
+        component: 'QrCode',
+        label: '二维码',
+        propValue: '123412341234',
+        icon: 'juxing',
+        style: {
+            width: 200,
+            height: 200,
+            color: '',
+            borderColor: '#000',
+            borderWidth: 1,
+            backgroundColor: '',
+            borderStyle: 'solid',
+            borderRadius: '',
+            verticalAlign: 'middle',
+            qrcodeSize: 200,
+            qrcodeMargin: 0,
+            qrcodeLogoSrc: '',
+            qrcodeLogoScale: 0,
+            colorDark: '#000',
+            colorLight: '#FFF',
+            autoColor: true,
+        },
+    },
 ]
 
 for (let i = 0, len = list.length; i < len; i++) {

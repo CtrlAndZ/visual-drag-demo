@@ -6,6 +6,7 @@ const components = [
     'VButton',
     'Group',
     'RectShape',
+    'QrCode',
 ]
 
 components.forEach(key => {

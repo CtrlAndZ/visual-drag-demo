@@ -18,6 +18,14 @@ export const styleData = [
     { key: 'textAlign', label: '左右对齐' },
     { key: 'verticalAlign', label: '上下对齐' },
     { key: 'opacity', label: '透明度' },
+    { key: 'qrcodeSize', label: '二维码大小' },
+    { key: 'qrcodeMargin', label: '外边距' },
+    { key: 'qrcodeLogoSrc', label: 'Logo地址' },
+    { key: 'qrcodeLogoScale', label: 'Logo尺寸' },
+    { key: 'colorDark', label: '实点的颜色' },
+    { key: 'colorLight', label: '空白的颜色' },
+    { key: 'autoColor', label: '背景图颜色作为实点颜色' },
+    { key: 'upLoad', label: '上传图片' },
 ]
 
 export function getStyle(style, filter = []) {
